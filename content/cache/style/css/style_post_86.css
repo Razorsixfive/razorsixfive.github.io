@@ -1,0 +1,33 @@
+.elementor-86 .elementor-element.elementor-element-a71c005 {
+  padding: 120px 0 70px
+}
+
+.elementor-86 .elementor-element.elementor-element-409b1070>.elementor-column-wrap>.elementor-widget-wrap>.elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+  margin-bottom: 0
+}
+
+.elementor-86 .elementor-element.elementor-element-308f1187 .elementor-spacer-inner {
+  height: 40px
+}
+
+.elementor-86 .elementor-element.elementor-element-30de4753 {
+  color: #fff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 1.3rem
+}
+
+.elementor-86 .elementor-element.elementor-element-30de4753>.elementor-widget-container {
+  padding: 0 0 0 20%
+}
+
+@media(max-width:991px) {
+  .elementor-86 .elementor-element.elementor-element-30de4753>.elementor-widget-container {
+    padding: 0 0 0 35px
+  }
+}
+
+@media(max-width:767px) {
+  .elementor-86 .elementor-element.elementor-element-30de4753>.elementor-widget-container {
+    padding: 0 0 0 35px
+  }
+}

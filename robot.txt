@@ -1,0 +1,56 @@
+# SEO, Webcrawler osv.
+        _
+       [ ]
+      (   )
+       |>|
+    __/===\__
+   //| o=o |\\
+ <]  | o=o |  [>
+     \=====/
+    / / | \ \
+   <_________>
+
+# Disallow All 
+# User-agent: *
+# Disallow: /
+
+# Tillad alle
+# User-agent: *
+# Disallow:
+
+# Bloker en Folder
+# User-agent: *
+# Disallow: /admin/
+
+# Bloker en Fil
+# User-agent: *
+# Disallow: /admin.html 
+
+# Tillad ikke en filtypenavn
+# User-agent: *
+# Disallow: /*.pdf$ 
+# eller 
+# User-agent: *
+# Disallow: /*.xls$
+
+# Tillad kun googlebot en fil/folder eller flere
+# User-agent: *
+# Disallow: /
+# ____
+# User-agent: Googlebot
+# Disallow:
+
+# Tillad ikke en specifik Bot
+# User-agent: Googlebot
+# Disallow: /
+#_____
+# User-agent: *
+# Disallow:
+
+# Like til Sitemap
+# User-agent: *
+# Sitemap: https://mysitet.com/sitemap.xm
+
+# Brems Web Crawlers
+# User-agent: *
+# Crawl-delay: 10
